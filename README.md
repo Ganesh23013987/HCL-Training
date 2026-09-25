@@ -14,3 +14,9 @@ https://docs.google.com/spreadsheets/d/1vXriuxRbOWr7nEhyCtD0dYGzM2cE6bt4jiBJ8_Sz
 ### Date: 24//09/2026
 
 https://1drv.ms/x/c/6BBA4D598AA71114/IQATSjjoiODiTKUPI1uwMlWiAb-rGE8QD_Xm0gki2NYp78I?e=fQuAbM
+
+## Python Problems:
+### Date: 25/09/2026
+
+
+Python Programs: https://colab.research.google.com/drive/1wrB5S8mjn-gQ4NrEPJCweQKk32RLusYz?usp=sharing
