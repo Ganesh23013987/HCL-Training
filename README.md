@@ -10,6 +10,10 @@ https://docs.google.com/spreadsheets/d/1oqbQ1LGoaTKGryhhj43RrWJwRJk5ILJUMcS9z1sC
 ### Date: 22/09/2026
 https://docs.google.com/spreadsheets/d/1vXriuxRbOWr7nEhyCtD0dYGzM2cE6bt4jiBJ8_SzGUI/edit?usp=sharing
 
+## Basic Python Programs
+### Date: 23/09/2026
+github link: https://github.com/Ganesh23013987/HCL_Training_23.09.2026.git
+
 ## RailOne Application Testing metrics report:
 ### Date: 24//09/2026
 
