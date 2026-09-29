@@ -1,0 +1,48 @@
+RAILONE MOBILE APPLICATION – TEST METRIC AND ANALYTICS,,,,,,
+TEST METRIC,,,,,,
+Name : Tamizhselvan B      Reg.no : 212223230225,,,,,,
+Name : Ganesh D    Reg.no : 212223240035,,,,,,
+Test ID,Type,Test Scenario,Expected Result,Actual Result,Test Data,Status
+TID001,Valid,Verify New User Registration Page,New User Registration Page,New User Registration Page,Valid User,PASS
+TID002,Valid,Verify Account Creation,User Credentials,User Credentials,User Credentials,PASS
+TID003,Invalid,Verify OTP with Invalid OTP,OTP Verified,OTP Invalid,Invalid OTP,FAIL
+TID004,Valid,Verify OTP with Valid OTP,OTP Verified,OTP Verified,Valid OTP,PASS
+TID005,Valid,Verify mPIN Creation,Creating mPIN,Creating mPIN,Create mPIN,PASS
+TID006,Valid,Verify Forgot mPIN,Verifying Mobile Number,Verifying Mobile Number,Registered Mobile,PASS
+TID007,Invalid,Verify mPIN OTP Generation,OTP Generated & Verified,OTP Generated & Unverified,Invalid OTP,FAIL
+TID008,Valid,Verify mPIN OTP Generation,OTP Generated & Verified,OTP Generated & Verified,Valid OTP,PASS
+TID009,Valid,Verify New mPIN Creation,New mPIN Created,New mPIN Created,New mPIN,PASS
+TID010,Valid,Verify Home Page Access,Entered Home Page,Entered Home Page,Valid Login,PASS
+TID011,Valid,Verify Ticket Booking Page,Entered Booking Page,Entered Booking Page,Ticket Booking,PASS
+TID012,Valid,Verify From & To Station Display,Stations Displaying Page,Stations Displaying Page,Valid Stations,PASS
+TID013,Invalid,Verify Same From & To Station Validation,Entering Two Different Stations,Entered Same Stations,Same Station,FAIL
+TID014,Valid,Verify Train & Ticket Details,Displaying Train & Ticket Details,Displaying Train & Ticket Details,Train Selection,PASS
+TID015,Valid,Verify Payment Details Page,Displaying Payment Details,Displaying Payment Details,Payment Page,PASS
+TID016,Valid,Verify Payment Method Selection,Choosing Payment Methods,Choosing Payment Methods,UPI/Card/NetBanking,PASS
+TID017,Invalid,Verify Payment Confirmation,Payment Confirmation Page,Can't Book Due to GPS detected as Near By Stations,GPS Near Station,FAIL
+TID018,Valid,Verify UPI Payment Success,Payment Confirmed,Payment Confirmed,UPI Payment,PASS
+TID019,Valid,Verify My Bookings Page,Tickets Displayed,Tickets Displayed,Booked Ticket,PASS
+,,,,,,
+TEST SUMMARY,,,,,,
+Total Test Cases Planned,,19,,,,
+Test Cases Executed,,19,,,,
+Test Cases Passed,,15,,,,
+Test Cases Failed,,4,,,,
+Total Defects Found,,4,,,,
+,,,,,,
+Performance Observation,,,,,,
+Run,,Response Time (sec),,,,
+Run 1,,3,,,,
+Run 2,,4,,,,
+Run 3,,5,,,,
+Run 4,,2,,,,
+Run 5,,6,,,,
+,,,,,,
+,,,,,,
+CALCULATIONS,Formula,,,,,
+Test Coverage,(Requirements Tested ÷ Total Requirements) × 100,100,,,,
+Pass Rate,(Passed Test Cases ÷ Executed Test Cases) × 100,78.94736842,,,,
+Fail Rate,(Failed Test Cases ÷ Executed Test Cases) × 100,21.05263158,,,,
+Mean,Sum of Values ÷ Number of Values,4,,,,
+Median,Middle value after sorting,4,,,,
+Defect Density,Number of Defects ÷ KLOC,2,,,,
