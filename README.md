@@ -1,4 +1,4 @@
-# HCL-Training
+# HCL Training
 
 ## Manual Testing:
 
