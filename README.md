@@ -25,7 +25,7 @@ https://1drv.ms/x/c/6BBA4D598AA71114/IQATSjjoiODiTKUPI1uwMlWiAb-rGE8QD_Xm0gki2NY
 
 Python Programs: https://colab.research.google.com/drive/1wrB5S8mjn-gQ4NrEPJCweQKk32RLusYz?usp=sharing
 
-## Python Assignment:
+## Numpy and Python programs Assignment:
 ### Date: 29/09/2026
 
 https://colab.research.google.com/drive/1P7GT-ZsnWW6_D-eIPE_XLVW9dQJ2LTqm?usp=sharing
