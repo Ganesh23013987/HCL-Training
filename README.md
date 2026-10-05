@@ -35,7 +35,7 @@ https://colab.research.google.com/drive/1P7GT-ZsnWW6_D-eIPE_XLVW9dQJ2LTqm?usp=sh
 
 ### Task1: saucedemo.com website to login
 
-```
+```python
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -68,7 +68,7 @@ driver.quit()
 
 ### Task2: saucedemo.com website to list the products
 
-```
+```python
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -110,7 +110,7 @@ driver.quit()
 
 ## Task3: Flipkart Website to login with user OTP verification
 
-```
+```python
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
