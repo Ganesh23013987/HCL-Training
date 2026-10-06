@@ -163,3 +163,54 @@ input("Enter OTP in terminal when you receive it: ")
 
 ### After otp verification login successful in flipkart website
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6531f194-37ee-4d22-b364-461e4189eddf" />
+
+
+## Date: 06/10/2026
+### Today Task:
+```
+rom selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
+
+driver = webdriver.Edge()
+
+driver.maximize_window()
+
+driver.get("https://vinothqaacademy.com/demo-site/")
+
+time.sleep(5)
+
+first_name = driver.find_element(By.ID, "vfb-5").send_keys("Ganesh")
+time.sleep(2)
+
+last_name = driver.find_element(By.ID, "vfb-7").send_keys("D")
+time.sleep(2)
+
+gender = driver.find_element(By.ID, "vfb-31-1").click()
+time.sleep(2)
+
+course_interest = driver.find_element(By.ID, "vfb-20-0").click()
+time.sleep(2)
+
+street_address = driver.find_element(By.ID, "vfb-13-address").send_keys("Navalar street, ullagaram")
+time.sleep(2)
+
+apt_suite = driver.find_element(By.ID, "vfb-13-address-2").send_keys("Apt 1")
+time.sleep(2)
+
+city = driver.find_element(By.ID, "vfb-13-city").send_keys("Chennai")
+time.sleep(2)
+
+postal_code = driver.find_element(By.ID, "vfb-13-zip").send_keys("600061")
+time.sleep(2)
+
+email = driver.find_element(By.ID, "vfb-14").send_keys("ganeshd2026@gmail.com")
+time.sleep(15)
+
+input("Press ENTER to close the browser...")
+
+driver.quit()
+```
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f9ea8647-8a7c-442e-87a2-1a18ba3ae659" />
+
